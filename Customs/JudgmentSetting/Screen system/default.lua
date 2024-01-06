@@ -4,7 +4,7 @@ local actorSelf
 local current = 1
 
 local configList = {
-    {Key = 'JudgmentMode', List = {'DDR', 'SuperNOVA', 'StepMania', 'Virtua'}, Default = 'SuperNOVA'},
+    {Key = 'JudgmentMode', List = {'DDR', 'SuperNOVA', 'StepMania', 'EZ2', 'Japanese', 'Lines', 'Lines EX', 'Minecraft', 'Ryuto Setsujin', 'Simple', 'Simple Lines', 'Simple Lines v2', 'Simple v2', 'Sticker Star', 'Superstar', 'Velexis BASIC', 'Velexis BASIC EX', 'Velexis Default', 'Velexis Default EX', 'Velexis v1', 'Velexis v1 EX', 'Velexis v3 (Milky EX)', 'Velexis v3 (Milky)', 'Velexis v3.5 (Milky v2)', 'Virtua', 'Virtua Classic'}, Default = 'SuperNOVA'},
 }
 
 for k,v in pairs(configList) do
